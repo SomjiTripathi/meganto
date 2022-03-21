@@ -1,7 +1,12 @@
-package fetchshipment;
+package com.example.response;
 import java.util.Date;
 import java.util.List;
-public class Root
+
+import fetchshipment.Comments;
+import fetchshipment.Extension_attributes;
+import fetchshipment.Items;
+import fetchshipment.Tracks;
+public class FetchShipmentresponse
 {
     private int billing_address_id;
 

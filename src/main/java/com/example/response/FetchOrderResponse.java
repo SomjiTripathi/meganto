@@ -1,9 +1,14 @@
-package com.example.fetchorder;
+package com.example.response;
 
 import java.util.Date;
 import java.util.List;
 
-public class Root {
+import com.example.fetchorder.Billing_address;
+import com.example.fetchorder.Extension_attributes;
+import com.example.fetchorder.Items;
+import com.example.fetchorder.Payment;
+
+public class FetchOrderResponse {
 	private String applied_rule_ids;
 
 	private String base_currency_code;

@@ -1,5 +1,8 @@
-package com.example.statusupdate;
-public class Root
+package com.example.response;
+
+import com.example.statusupdate.Entity;
+
+public class StatusResponse
 {
     private Entity entity;
 

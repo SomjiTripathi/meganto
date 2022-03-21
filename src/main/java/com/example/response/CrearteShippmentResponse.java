@@ -1,6 +1,10 @@
-package createshippment;
+package com.example.response;
 import java.util.List;
-public class Root
+
+import createshippment.Comment;
+import createshippment.Items;
+import createshippment.Tracks;
+public class CrearteShippmentResponse
 {
     private List<Items> items;
 

@@ -1,5 +1,5 @@
-package com.example.createinvoice;
-public class Root
+package com.example.response;
+public class CreateInvoiceResponse
 {
     private boolean capture;
 

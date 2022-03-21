@@ -1,9 +1,9 @@
-package getinvoice;
+package com.example.response;
 import java.util.Date;
 import java.util.List;
 
 import com.example.fetchorder.Items;
-public class Root
+public class GetInvoiceresponse
 {
     private String base_currency_code;
 
